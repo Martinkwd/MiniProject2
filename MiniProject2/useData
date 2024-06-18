@@ -1,0 +1,22 @@
+import { useEffect, useState } from "react";
+
+export function useData(filePath) {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    if (filePath) {
+      let ingnore = false;
+      fetch(filePath)
+        .then((response) => response.json())
+        .then((json) => {
+          if (!ingnore) {
+            setData(json);
+          }
+        });
+      return () => {
+        ingnore = true;
+      };
+    }
+  }, [filePath]);
+  return data;
+}

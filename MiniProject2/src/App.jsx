@@ -2,18 +2,20 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import SignUp from "./SignUp";
-import SignIn from "./SignIn";
+// import exercise from "./exercises.json";
 import AppRouter from "./appRouter";
 import { ProgressProvider } from "./Hooks/ProgressProvider";
+import { GymProvider } from "./Hooks/GymProvider";
 import NavBar from "./NavBar";
 
 function App() {
   return (
     <>
       <ProgressProvider>
-        <NavBar></NavBar>
-        <AppRouter></AppRouter>
+        <GymProvider>
+          <NavBar></NavBar>
+          <AppRouter></AppRouter>
+        </GymProvider>
       </ProgressProvider>
     </>
   );

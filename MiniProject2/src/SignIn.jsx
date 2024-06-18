@@ -45,7 +45,7 @@ export default function SignInSide() {
       email: data.get("email"),
       password: data.get("password"),
     });
-    navigate("/homePage");
+    navigate("/MyProgress");
   };
 
   return (

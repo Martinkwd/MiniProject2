@@ -1,0 +1,204 @@
+{
+  "exercises": [
+    {
+      "itemId": 1,
+      "name": "Incline dumbbell bench press",
+      "category": "chest",
+      "thumbnail": [
+        "https://st2.depositphotos.com/8546304/11406/i/950/depositphotos_114060930-stock-photo-dumbbell-bench-press-while-lying.jpg"
+      ]
+    },
+    {
+      "itemId": 2,
+      "name": "Bench Press",
+      "category": "chest",
+      "thumbnail": [
+        "https://fitwill.app/_next/image?url=https%3A%2F%2Ffitwill.app%2Fapi%2Fimage%2F0025&w=2048&q=75"
+      ]
+    },
+    {
+      "itemId": 3,
+      "name": "Chest Fly Machine",
+      "category": "chest",
+      "thumbnail": [
+        "https://static.strengthlevel.com/images/exercises/machine-chest-fly/machine-chest-fly-800.jpg"
+      ]
+    },
+    {
+      "itemId": 4,
+      "name": "Chest Press Machine",
+      "category": "chest",
+      "thumbnail": [
+        "https://fitnessprogramer.com/wp-content/uploads/2021/02/Incline-Chest-Press-Machine.gif"
+      ]
+    },
+    {
+      "itemId": 5,
+      "name": "Smith Machine Bench Press",
+      "category": "chest",
+      "thumbnail": [
+        "https://fitnessprogramer.com/wp-content/uploads/2021/06/Smith-Machine-Bench-Press.gif"
+      ]
+    },
+    {
+      "itemId": 6,
+      "name": "Incline Chest Press Machine",
+      "category": "chest",
+      "thumbnail": [
+        "https://fitnessprogramer.com/wp-content/uploads/2021/06/Lever-Incline-Chest-Press.gif"
+      ]
+    },
+    {
+      "itemId": 7,
+      "name": "Tricep Cable Press Down",
+      "category": "tricep",
+      "thumbnail": [
+        "https://www.dmoose.com/cdn/shop/articles/cable_Press_down.jpg?v=1693225553"
+      ]
+    },
+    {
+      "itemId": 8,
+      "name": "Tricep Cable KickBacks",
+      "category": "tricep",
+      "thumbnail": [
+        "https://training.fit/wp-content/uploads/2020/03/kickbacks-kabelzug-800x448.png"
+      ]
+    },
+    {
+      "itemId": 9,
+      "name": "Tricep Dips",
+      "category": "tricep",
+      "thumbnail": [
+        "https://fitnessprogramer.com/wp-content/uploads/2021/02/Triceps-Dips.gif"
+      ]
+    },
+    {
+      "itemId": 10,
+      "name": "Cable Overhead Tricep",
+      "category": "tricep",
+      "thumbnail": [
+        "https://static.strengthlevel.com/images/exercises/cable-overhead-tricep-extension/cable-overhead-tricep-extension-800.jpg"
+      ]
+    },
+    {
+      "itemId": 11,
+      "name": "Cable Shoulder",
+      "category": "shoulder",
+      "thumbnail": [
+        "https://www.bodybuildingmealplan.com/wp-content/uploads/Cable-Shoulder-Exercises-Single-Lateral-Raise.png"
+      ]
+    },
+    {
+      "itemId": 12,
+      "name": "Machine Reverse Fly Deltoid",
+      "category": "shoulder",
+      "thumbnail": [
+        "https://static.strengthlevel.com/images/illustrations/machine-reverse-fly-1000x1000.jpg"
+      ]
+    },
+    {
+      "itemId": 13,
+      "name": "Seated Dumbbell Shoulder Press",
+      "category": "shoulder",
+      "thumbnail": [
+        "https://static.strengthlevel.com/images/exercises/seated-dumbbell-shoulder-press/seated-dumbbell-shoulder-press-800.jpg"
+      ]
+    },
+    {
+      "itemId": 14,
+      "name": "Spider Curl",
+      "category": "bicep",
+      "thumbnail": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu56wZyZEakoQStwBBb7-yjWR52DVVktGEBbaMBV9vaN8J2CMhn8WzURGtVXN6haw0EaM&usqp=CAU"
+      ]
+    },
+    {
+      "itemId": 15,
+      "name": "Hammer Curl",
+      "category": "bicep",
+      "thumbnail": [
+        "https://anabolicaliens.com/cdn/shop/articles/5fa2d13e06ae0ac61604ad32_hammer-curl.png?v=1641753307"
+      ]
+    },
+    {
+      "itemId": 16,
+      "name": "Drag Curls",
+      "category": "bicep",
+      "thumbnail": [
+        "https://miro.medium.com/v2/resize:fit:1166/1*-_Tz8c4mQhUC3w8OaMSGwA.jpeg"
+      ]
+    },
+    {
+      "itemId": 17,
+      "name": "Bicep Curls",
+      "category": "bicep",
+      "thumbnail": [
+        "https://kinxlearning.com/cdn/shop/articles/biceps_curl.png?v=1662329915"
+      ]
+    },
+    {
+      "itemId": 18,
+      "name": "Basin Cable Curl",
+      "category": "bicep",
+      "thumbnail": [
+        "https://cdn.shopify.com/s/files/1/0090/4773/6378/files/Standing_Single_Arm_Bicep_Cable_Curl_2.jpg?v=1655995231"
+      ]
+    },
+    {
+      "itemId": 19,
+      "name": "T-Bar Row Machine",
+      "category": "back",
+      "thumbnail": [
+        "https://static.wixstatic.com/media/2edbed_091ee6737154450b91e314a74e0ff0fc~mv2.jpg/v1/fill/w_490,h_491,al_c,lg_1,q_80/2edbed_091ee6737154450b91e314a74e0ff0fc~mv2.jpg"
+      ]
+    },
+    {
+      "itemId": 20,
+      "name": "Seated Machine Row",
+      "category": "back",
+      "thumbnail": [
+        "https://training.fit/wp-content/uploads/2020/02/rudern-geraet.png"
+      ]
+    },
+    {
+      "itemId": 21,
+      "name": "Wide Grip Lat Pulldown",
+      "category": "back",
+      "thumbnail": [
+        "https://anabolicaliens.com/cdn/shop/articles/5f19b4eff633a10684ef6193_wide-grip-lat-pulldown-anabolic-aliens.png?v=1644918521"
+      ]
+    },
+    {
+      "itemId": 22,
+      "name": "Hack Squat",
+      "category": "leg",
+      "thumbnail": [
+        "https://i.pinimg.com/736x/5b/ac/21/5bac2118060c3b635d96735185b5d698.jpg"
+      ]
+    },
+    {
+      "itemId": 23,
+      "name": "Angled Leg Press",
+      "category": "leg",
+      "thumbnail": [
+        "https://asphaltgreen.org/images/uploads/posts/_large/Leg_Press_Diagram.png"
+      ]
+    },
+    {
+      "itemId": 24,
+      "name": "Leg Curl",
+      "category": "leg",
+      "thumbnail": [
+        "https://static.strengthlevel.com/images/exercises/seated-leg-curl/seated-leg-curl-800.jpg"
+      ]
+    },
+    {
+      "itemId": 25,
+      "name": "Leg Extension",
+      "category": "leg",
+      "thumbnail": [
+        "https://static.strengthlevel.com/images/exercises/leg-extension/leg-extension-800.jpg"
+      ]
+    }
+  ]
+}

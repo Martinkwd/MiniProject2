@@ -2,44 +2,45 @@ import { useState } from "react";
 import SingleProgress from "./SingleProgress";
 import AddProgressForm from "./AddProgressForm";
 import { useProgressContext } from "./Hooks/ProgressProvider";
+import "./MyPogress.css";
 
-const myprogress = [];
+const initialProgress = [];
 
 export default function MyProgress() {
-  const [currentProgress, setCurrentProgress] = useState(myprogress);
-  const { currentProgressProvider, setCurrentProgressProvider } =
+  const { currentProgressProvider, handleUpdateProgress } =
     useProgressContext();
-
-  const progressItem = currentProgressProvider.map((progress) => (
-    <SingleProgress
-      key={progress.id}
-      picture={progress.picture}
-      weight={progress.weight}
-      date={progress.date}
-      onDelete={() => handleDeleteProgress(progress.id)}
-    />
-  ));
 
   const handleAddProgress = (newProgress) => {
     newProgress.id = currentProgressProvider.length + 1;
-    setCurrentProgressProvider([...currentProgressProvider, newProgress]);
+    handleUpdateProgress([...currentProgressProvider, newProgress]);
   };
 
-  const handleResetProgress = () => {
-    setCurrentProgressProvider(myprogress);
-  };
+  // const handleResetProgress = () => {
+  //   handleUpdateProgress(initialProgress);
+  // };
 
   const handleDeleteProgress = (id) => {
-    setCurrentProgressProvider(
+    handleUpdateProgress(
       currentProgressProvider.filter((progress) => progress.id !== id)
     );
   };
 
+  const progressItems = currentProgressProvider.map((progress) => (
+    <SingleProgress
+      key={progress.id}
+      id={progress.id}
+      picture={progress.picture}
+      weight={progress.weight}
+      date={progress.date}
+      onDelete={handleDeleteProgress}
+    />
+  ));
+
   return (
-    <>
-      <ul>{progressItem}</ul>
-      <button onClick={handleResetProgress}>Reset</button>
-      <AddProgressForm onAddProgress="handleAddProgress" />
-    </>
+    <div className="myProgress">
+      <ul>{progressItems}</ul>
+      <AddProgressForm onAddProgress={handleAddProgress} />
+      {/* <button onClick={handleResetProgress}>Reset</button> */}
+    </div>
   );
 }

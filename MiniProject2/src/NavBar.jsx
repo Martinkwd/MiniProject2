@@ -15,10 +15,10 @@ import MenuItem from "@mui/material/MenuItem";
 import { NavLink, isRouteErrorResponse } from "react-router-dom";
 
 const pages = [
-  { text: "Home", path: "/home" },
-  { text: "My progress", path: "/AddProgressForm" },
-  { text: "Gym progress", path: "/login" },
-  { text: "Dashboard", path: "/ProductPost" },
+  // { text: "Home", path: "/home" },
+  { text: "My progress", path: "/MyProgress" },
+  { text: "Gym progress", path: "/GymProgress" },
+  { text: "My weight", path: "/Dashboard" },
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
@@ -52,7 +52,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component={NavLink}
-            to="/home"
+            to="MyProgress"
             sx={{
               mr: 2,
               display: { xs: "none", md: "flex" },
@@ -114,7 +114,7 @@ function ResponsiveAppBar() {
             variant="h5"
             noWrap
             component={NavLink}
-            to="/home"
+            to="MyProgress"
             sx={{
               mr: 2,
               display: { xs: "flex", md: "none" },

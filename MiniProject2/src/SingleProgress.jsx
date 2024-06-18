@@ -1,15 +1,16 @@
-export default function SingleProgress({ weight, date, picture }) {
-  function deleteProgress() {
-    setProgress((originProgress) =>
-      originProgress.filter((progress) => progress.weight != weight)
-    );
-  }
+export default function SingleProgress({
+  id,
+  weight,
+  date,
+  picture,
+  onDelete,
+}) {
   return (
-    <li>
+    <li className="singleProgress">
       <img src={picture} alt="" />
-      <h3>{weight}</h3>
+      <h3>{weight} KG</h3>
       <h3>{date}</h3>
-      <button onClick={deleteProgress}>Delete</button>
+      <button onClick={() => onDelete(id)}>Delete</button>
     </li>
   );
 }
